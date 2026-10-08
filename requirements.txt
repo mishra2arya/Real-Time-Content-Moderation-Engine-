@@ -1,0 +1,17 @@
+# Core Runtime Dependencies for Real-Time Content Moderation Engine
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+pydantic>=2.8.0,<3.0.0
+pydantic-settings>=2.4.0,<3.0.0
+numpy>=1.26.0,<3.0.0
+torch>=2.2.0,<3.0.0
+transformers>=4.40.0,<6.0.0
+tokenizers>=0.19.0,<1.0.0
+safetensors>=0.4.0,<1.0.0
+onnx>=1.16.0,<2.0.0
+onnxruntime>=1.18.0,<2.0.0
+prometheus-client>=0.20.0,<1.0.0
+httpx>=0.27.0,<1.0.0
+pyyaml>=6.0.0,<7.0.0
+python-dotenv>=1.0.0,<2.0.0
+scikit-learn>=1.4.0,<2.0.0

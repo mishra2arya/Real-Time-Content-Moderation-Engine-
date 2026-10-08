@@ -1,0 +1,45 @@
+steps:
+  # 1. Run Automated Tests
+  - name: "python:3.13-slim"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        pip install -r requirements-dev.txt
+        pytest -v tests/
+
+  # 2. Build Container Image
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - "build"
+      - "-t"
+      - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO}/engine:${SHORT_SHA}"
+      - "-t"
+      - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO}/engine:latest"
+      - "."
+
+  # 3. Push Image to Google Artifact Registry
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - "push"
+      - "--all-tags"
+      - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO}/engine"
+
+  # 4. Deploy to Cloud Run
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: "gcloud"
+    args:
+      - "run"
+      - "deploy"
+      - "content-moderation-engine"
+      - "--image=${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO}/engine:${SHORT_SHA}"
+      - "--region=${_REGION}"
+      - "--platform=managed"
+      - "--allow-unauthenticated"
+
+substitutions:
+  _REGION: "us-central1"
+  _REPO: "moderation"
+
+options:
+  logging: CLOUD_LOGGING_ONLY

@@ -1,0 +1,20 @@
+{
+  "total_raw_examples": 2480,
+  "total_clean_examples": 2250,
+  "training_examples": 1574,
+  "validation_examples": 338,
+  "test_examples": 338,
+  "duplicate_count": 230,
+  "number_of_labels": 2,
+  "class_distribution": {
+    "non_toxic (0)": 930,
+    "toxic (1)": 1320
+  },
+  "avg_char_length": 66.83,
+  "p95_char_length": 91,
+  "max_char_length": 109,
+  "avg_word_length": 11.49,
+  "p95_word_length": 16,
+  "max_word_length": 19,
+  "seed": 42
+}

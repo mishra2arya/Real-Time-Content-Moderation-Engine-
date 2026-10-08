@@ -1,0 +1,66 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: content-moderation-engine
+  labels:
+    cloud.googleapis.com/location: us-central1
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/description: "High-Throughput Real-Time Content Moderation Microservice"
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
+        autoscaling.knative.dev/maxScale: "20"
+        run.googleapis.com/cpu-throttling: "false"
+        run.googleapis.com/execution-environment: "gen2"
+        run.googleapis.com/startup-cpu-boost: "true"
+    spec:
+      containerConcurrency: 80
+      timeoutSeconds: 30
+      serviceAccountName: moderation-runner@PROJECT_ID.iam.gserviceaccount.com
+      containers:
+        - image: us-central1-docker.pkg.dev/PROJECT_ID/moderation/engine:latest
+          ports:
+            - name: http1
+              containerPort: 8000
+          resources:
+            limits:
+              cpu: "2000m"
+              memory: "2Gi"
+          env:
+            - name: APP_ENV
+              value: "production"
+            - name: LOG_LEVEL
+              value: "INFO"
+            - name: NUM_THREADS
+              value: "4"
+            - name: DEFAULT_TOXICITY_THRESHOLD
+              value: "0.50"
+            - name: STRICT_TOXICITY_THRESHOLD
+              value: "0.35"
+            - name: FLAG_REVIEW_THRESHOLD
+              value: "0.40"
+            - name: BATCH_MAX_SIZE
+              value: "64"
+            - name: BATCH_TIMEOUT_MS
+              value: "5"
+            - name: MAX_CONCURRENT_REQUESTS
+              value: "100"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 15
+            timeoutSeconds: 3
+            failureThreshold: 3
+          startupProbe:
+            httpGet:
+              path: /ready
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 6

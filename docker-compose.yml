@@ -1,0 +1,45 @@
+services:
+  moderation-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: moderation-engine
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=production
+      - LOG_LEVEL=INFO
+      - NUM_THREADS=4
+      - DEFAULT_TOXICITY_THRESHOLD=0.50
+      - STRICT_TOXICITY_THRESHOLD=0.35
+      - FLAG_REVIEW_THRESHOLD=0.40
+      - BATCH_MAX_SIZE=64
+      - BATCH_TIMEOUT_MS=5
+      - MAX_CONCURRENT_REQUESTS=100
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2048M
+        reservations:
+          cpus: "1.0"
+          memory: 1024M
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: moderation-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      moderation-engine:
+        condition: service_healthy

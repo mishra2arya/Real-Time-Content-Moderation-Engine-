@@ -1,0 +1,25 @@
+{
+  "model_version": "distilbert-moderation-v1",
+  "architecture": "DistilBertForSequenceClassification",
+  "opset_version": 17,
+  "onnx_file": "model.onnx",
+  "file_size_mb": 255.53,
+  "max_sequence_length": 128,
+  "input_names": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "output_names": [
+    "logits"
+  ],
+  "id2label": {
+    "0": "non_toxic",
+    "1": "toxic"
+  },
+  "label2id": {
+    "non_toxic": 0,
+    "toxic": 1
+  },
+  "max_numerical_diff": 4.76837158203125e-07,
+  "export_timestamp": "2026-09-20T10:06:27Z"
+}

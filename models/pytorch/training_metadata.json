@@ -1,0 +1,21 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "num_labels": 2,
+  "max_length": 128,
+  "seed": 42,
+  "device": "cpu",
+  "total_train_time_seconds": 556.8,
+  "best_val_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fpr": 0.0,
+    "tp": 198,
+    "fp": 0,
+    "fn": 0,
+    "tn": 140,
+    "loss": 0.0061
+  },
+  "timestamp": "2026-09-20T10:05:14Z"
+}

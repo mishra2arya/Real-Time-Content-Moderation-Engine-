@@ -1,0 +1,19 @@
+CONTENT MODERATION CLASSIFICATION REPORT
+============================================================
+
+              precision    recall  f1-score   support
+
+   non_toxic     1.0000    1.0000    1.0000       140
+       toxic     1.0000    1.0000    1.0000       198
+
+    accuracy                         1.0000       338
+   macro avg     1.0000    1.0000    1.0000       338
+weighted avg     1.0000    1.0000    1.0000       338
+
+
+CONFUSION MATRIX:
+TN: 140 | FP: 0
+FN: 0 | TP: 198
+
+False Positive Rate (FPR): 0.0000 (Target < 0.05: PASS)
+Toxic Precision:          1.0000 (Target >= 0.91: PASS)

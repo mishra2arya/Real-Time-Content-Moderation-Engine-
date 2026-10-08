@@ -1,0 +1,31 @@
+# Runtime application configuration for Real-Time Content Moderation Engine
+app_name: "Real-Time Content Moderation Engine"
+app_version: "1.0.0"
+app_env: "production"
+host: "0.0.0.0"
+port: 8000
+log_level: "INFO"
+
+# Model & Inference
+model_name: "distilbert-base-uncased"
+model_onnx_path: "models/onnx/model.onnx"
+model_pytorch_path: "models/pytorch"
+max_sequence_length: 128
+inference_engine: "onnx"
+execution_provider: "CPUExecutionProvider"
+num_threads: 4
+
+# Policy & Thresholds
+default_toxicity_threshold: 0.50
+strict_toxicity_threshold: 0.35
+flag_review_threshold: 0.40
+
+# High-Throughput Micro-batching
+batch_max_size: 64
+batch_timeout_ms: 5
+max_concurrent_requests: 100
+max_payload_chars: 10000
+
+# Security
+require_api_key: false
+api_key: null

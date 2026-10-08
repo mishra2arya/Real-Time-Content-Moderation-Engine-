@@ -1,0 +1,78 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+.tools/
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+!frontend/dist/
+!frontend/dist/**
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+/parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checking & Linting
+.mypy_cache/
+.ruff_cache/
+
+# Secrets & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service_account*.json
+
+# Data & Models (large weights)
+data/raw/
+models/pytorch/checkpoints/
+models/pytorch/*.safetensors
+models/onnx/*.onnx
+!models/onnx/parts/
+!models/onnx/parts/*
+models/cache/
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

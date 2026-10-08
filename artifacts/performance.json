@@ -1,0 +1,161 @@
+{
+  "benchmark_timestamp": "2026-09-20T10:10:42Z",
+  "environment": {
+    "hardware": "x86_64 CPU (Intel/AMD, 4 threads)",
+    "os": "Linux (Debian/Kali)",
+    "python": "Python 3.13.12",
+    "model": "distilbert-base-uncased (v1, 66M parameters)",
+    "max_sequence_length": 128,
+    "inference_runtime": "ONNX Runtime 1.30.0"
+  },
+  "latency": {
+    "num_runs": 100,
+    "pytorch": {
+      "p50": 10.762,
+      "p90": 12.148,
+      "p95": 12.672,
+      "p99": 13.69,
+      "mean": 11.353,
+      "min": 9.416,
+      "max": 45.267,
+      "std": 3.501
+    },
+    "onnx_runtime": {
+      "p50": 10.389,
+      "p90": 12.301,
+      "p95": 12.39,
+      "p99": 12.795,
+      "mean": 10.501,
+      "min": 8.544,
+      "max": 13.405,
+      "std": 1.159
+    },
+    "fastapi_api": {
+      "p50": 14.244,
+      "p90": 17.316,
+      "p95": 17.858,
+      "p99": 19.982,
+      "mean": 14.724,
+      "min": 11.927,
+      "max": 21.904,
+      "std": 1.93
+    },
+    "speedup_ratio": 1.08,
+    "target_48ms_achieved": true
+  },
+  "throughput": {
+    "peak_batch_throughput_msg_per_sec": 168.17,
+    "peak_concurrent_rps": 90.17,
+    "target_1000_msg_sec_achieved_batch": false,
+    "target_1000_msg_sec_achieved_concurrent": false,
+    "batch_benchmarks": {
+      "batch_1": {
+        "batch_size": 1,
+        "total_messages": 20,
+        "duration_seconds": 0.222,
+        "messages_per_second": 89.97,
+        "p50_latency_ms": 11.15,
+        "p95_latency_ms": 11.514,
+        "mean_latency_ms": 11.113,
+        "latency_per_message_ms": 11.113
+      },
+      "batch_8": {
+        "batch_size": 8,
+        "total_messages": 160,
+        "duration_seconds": 0.951,
+        "messages_per_second": 168.17,
+        "p50_latency_ms": 47.647,
+        "p95_latency_ms": 53.633,
+        "mean_latency_ms": 47.567,
+        "latency_per_message_ms": 5.946
+      },
+      "batch_16": {
+        "batch_size": 16,
+        "total_messages": 320,
+        "duration_seconds": 1.93,
+        "messages_per_second": 165.81,
+        "p50_latency_ms": 100.904,
+        "p95_latency_ms": 106.142,
+        "mean_latency_ms": 96.493,
+        "latency_per_message_ms": 6.031
+      },
+      "batch_32": {
+        "batch_size": 32,
+        "total_messages": 640,
+        "duration_seconds": 4.21,
+        "messages_per_second": 152.01,
+        "p50_latency_ms": 210.194,
+        "p95_latency_ms": 223.558,
+        "mean_latency_ms": 210.505,
+        "latency_per_message_ms": 6.578
+      },
+      "batch_64": {
+        "batch_size": 64,
+        "total_messages": 1280,
+        "duration_seconds": 7.635,
+        "messages_per_second": 167.66,
+        "p50_latency_ms": 385.129,
+        "p95_latency_ms": 424.638,
+        "mean_latency_ms": 381.724,
+        "latency_per_message_ms": 5.964
+      },
+      "batch_128": {
+        "batch_size": 128,
+        "total_messages": 2560,
+        "duration_seconds": 15.403,
+        "messages_per_second": 166.2,
+        "p50_latency_ms": 775.617,
+        "p95_latency_ms": 839.963,
+        "mean_latency_ms": 770.153,
+        "latency_per_message_ms": 6.017
+      }
+    },
+    "concurrent_benchmarks": {
+      "concurrency_1": {
+        "concurrent_workers": 1,
+        "total_requests": 15,
+        "successful_requests": 15,
+        "failed_requests": 0,
+        "duration_seconds": 0.168,
+        "requests_per_second": 89.16,
+        "p50_latency_ms": 11.164,
+        "p95_latency_ms": 12.005,
+        "p99_latency_ms": 12.386
+      },
+      "concurrency_5": {
+        "concurrent_workers": 5,
+        "total_requests": 75,
+        "successful_requests": 75,
+        "failed_requests": 0,
+        "duration_seconds": 0.843,
+        "requests_per_second": 88.92,
+        "p50_latency_ms": 11.101,
+        "p95_latency_ms": 12.312,
+        "p99_latency_ms": 13.77
+      },
+      "concurrency_10": {
+        "concurrent_workers": 10,
+        "total_requests": 150,
+        "successful_requests": 150,
+        "failed_requests": 0,
+        "duration_seconds": 1.663,
+        "requests_per_second": 90.17,
+        "p50_latency_ms": 11.077,
+        "p95_latency_ms": 11.604,
+        "p99_latency_ms": 12.358
+      },
+      "concurrency_20": {
+        "concurrent_workers": 20,
+        "total_requests": 300,
+        "successful_requests": 300,
+        "failed_requests": 0,
+        "duration_seconds": 3.337,
+        "requests_per_second": 89.91,
+        "p50_latency_ms": 11.066,
+        "p95_latency_ms": 11.677,
+        "p99_latency_ms": 12.83
+      }
+    },
+    "hardware_context": "Local CPU Inference (Intel/AMD x86_64, 4 threads)"
+  }
+}

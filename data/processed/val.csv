@@ -1,0 +1,339 @@
+cleaned_text,label,category
+your religion is pure cancer and should be eradicated..,1,identity_attack
+"in my opinion, all people from your country are filthy vermin and thieves..",1,identity_attack
+"by the way, i h4te everything about you, disgusting trash..",1,insult
+"in my opinion, i h4te everything about you, disgusting trash",1,insult
+"look, hello! how are you doing today? hope you have a great week!.",0,benign
+"to be fair, you are the most pathetic clown i have ever seen..",1,insult
+"in my opinion, you are an ugly, repulsive loser with zero future..",1,insult
+listen here: hello! how are you doing today? hope you have a great week!..,0,benign
+listen here: what is the best recipe for homemade chocolate chip cookies?!,0,benign
+everyone knows that shut your disgusting mouth you illiterate freak.,1,insult
+"in my opinion, nobody loves you, you stupid worthless idiot",1,insult
+i just wanted to say that the crash dump file was generated after the memory segmentation fault.!,0,benign
+"everyone knows that i h4te everything about you, disgusting trash..",1,insult
+i just wanted to say that i will hunt you down and destroy you!,1,threat
+listen here: u absolute sh!thead moron.,1,insult
+"honestly, you disgusting minority scum should get out of our community.",1,identity_attack
+everyone knows that what is the best recipe for homemade chocolate chip cookies?,0,benign
+"by the way, we must hold politicians accountable for budgetary mismanagement.!",0,benign
+hello! how are you doing today? hope you have a great week!,0,benign
+"i just wanted to say that nobody loves you, you stupid worthless idiot..",1,insult
+"by the way, let's schedule a brief follow-up call to review the quarterly roadmap.",0,benign
+i just wanted to say that g0 d!e y0u st00pid pers0n,1,severe_toxicity
+"listen here: you have the brain of an absolute moron, shut up.",1,insult
+listen here: why are you so dumb? you are an embarrassment to humanity..,1,insult
+"i just wanted to say that this game is insanely addictive, our team is dominating the lobby.",0,benign
+"actually, someone needs to eliminate you from this earth!",1,threat
+"in my opinion, hello! how are you doing today? hope you have a great week!!",0,benign
+"in my opinion, get lost you toxic piece of garbage!",1,insult
+everyone knows that g0 d!e y0u st00pid pers0n!,1,severe_toxicity
+"actually, we crushed our sales targets this quarter thanks to everyone's dedication.!",0,benign
+"listen here: you absolute imbecile, your opinion is completely trash..",1,insult
+"by the way, y0u are a c0mplete 1d10t and a l0ser",1,insult
+listen here: you disgusting minority scum should get out of our community..,1,identity_attack
+"honestly, i h4te everything about you, disgusting trash..",1,insult
+"in my opinion, i h4te everything about you, disgusting trash.",1,insult
+"by the way, i will put a bullet in your head if you speak again..",1,threat
+i just wanted to say that g0 d!e y0u st00pid pers0n!,1,severe_toxicity
+"by the way, u absolute sh!thead moron!",1,insult
+"in my opinion, the product design has several critical flaws that need immediate attention.!",0,benign
+"in my opinion, your religion is pure cancer and should be eradicated.",1,identity_attack
+"honestly, you have the brain of an absolute moron, shut up!",1,insult
+"everyone knows that nobody loves you, you stupid worthless idiot.",1,insult
+everyone knows that drop dead and burn in hell forever!,1,severe_toxicity
+"everyone knows that watch your back, your days are numbered..",1,threat
+listen here: 1 w!ll f!nd y0u and destr0y y0u..,1,threat
+i just wanted to say that i hope you suffer and die a painful death.,1,severe_toxicity
+i just wanted to say that we should destroy the staging cluster to save infrastructure cloud costs.!,0,benign
+listen here: you deserve to be shot and killed.,1,threat
+"while i understand your perspective, the latest study contradicts that conclusion.",0,benign
+i just wanted to say that happy birthday! may all your dreams and wishes come true this year.,0,benign
+"in my opinion, people of your race are genetically inferior degenerates",1,identity_attack
+listen here: hello! how are you doing today? hope you have a great week!,0,benign
+"by the way, congratulations on your graduation and new job offer!..",0,benign
+"by the way, you deserve to be shot and killed.",1,threat
+"honestly, g0 d!e y0u st00pid pers0n!",1,severe_toxicity
+everyone knows that the crash dump file was generated after the memory segmentation fault..,0,benign
+"to be fair, that guitar solo was absolutely sick! incredible performance!..",0,benign
+listen here: we should destroy the staging cluster to save infrastructure cloud costs.,0,benign
+"honestly, all people from your country are filthy vermin and thieves.",1,identity_attack
+"look, the movie villain was super wicked and had fantastic acting.!",0,benign
+"actually, what is the best recipe for homemade chocolate chip cookies?..",0,benign
+you deserve to be shot and killed,1,threat
+"in my opinion, you should drown yourself you miserable piece of filth!",1,severe_toxicity
+everyone knows that the garbage collector will clean up unreferenced memory objects.!,0,benign
+"to be fair, let's drop the staging database table before running database migrations.",0,benign
+"listen here: you are an ugly, repulsive loser with zero future..",1,insult
+"actually, all people from your country are filthy vermin and thieves",1,identity_attack
+"i just wanted to say that you have the brain of an absolute moron, shut up!",1,insult
+"actually, i really enjoyed reading this article, very informative and well written.!",0,benign
+"i just wanted to say that you completely killed it on stage tonight, outstanding show!!",0,benign
+"in my opinion, subhumans like you don't deserve human rights",1,identity_attack
+listen here: 1 w!ll f!nd y0u and destr0y y0u,1,threat
+"actually, i'm going to find your house and beat you up",1,threat
+"to be fair, do the world a favor and jump off a bridge!",1,severe_toxicity
+listen here: drop dead and burn in hell forever,1,severe_toxicity
+"look, while i understand your perspective, the latest study contradicts that conclusion.",0,benign
+the crash dump file was generated after the memory segmentation fault.!,0,benign
+"to be fair, people of your race are genetically inferior degenerates",1,identity_attack
+"to be fair, thank you so much for your assistance, i truly appreciate it.",0,benign
+"look, you absolute imbecile, your opinion is completely trash!",1,insult
+"actually, good morning everyone! looking forward to collaborating on this project..",0,benign
+"actually, all people from your country are filthy vermin and thieves.",1,identity_attack
+"to be fair, u absolute sh!thead moron",1,insult
+why are you so dumb? you are an embarrassment to humanity,1,insult
+"in my opinion, your religion is pure cancer and should be eradicated..",1,identity_attack
+"actually, we should destroy the staging cluster to save infrastructure cloud costs.!",0,benign
+i just wanted to say that do the world a favor and jump off a bridge.,1,severe_toxicity
+"honestly, we must hold politicians accountable for budgetary mismanagement..",0,benign
+listen here: what is the best recipe for homemade chocolate chip cookies?,0,benign
+"in my opinion, the weather today is absolutely beautiful and sunny outside.",0,benign
+listen here: i will hunt you down and destroy you.,1,threat
+"to be fair, thank you so much for your assistance, i truly appreciate it..",0,benign
+"honestly, let's schedule a brief follow-up call to review the quarterly roadmap.",0,benign
+"in my opinion, go kill yourself right now nobody cares about you.",1,severe_toxicity
+"look, i h4te everything about you, disgusting trash",1,insult
+"look, you have the brain of an absolute moron, shut up",1,insult
+"look, i really enjoyed reading this article, very informative and well written.!",0,benign
+"actually, you absolute imbecile, your opinion is completely trash.",1,insult
+"look, thank you so much for your assistance, i truly appreciate it..",0,benign
+i just wanted to say that that guitar solo was absolutely sick! incredible performance!.,0,benign
+"listen here: you have the brain of an absolute moron, shut up",1,insult
+"by the way, what is the best recipe for homemade chocolate chip cookies?.",0,benign
+i just wanted to say that i am going to murder your entire family.,1,threat
+"by the way, you have the brain of an absolute moron, shut up",1,insult
+"i just wanted to say that you absolute imbecile, your opinion is completely trash!",1,insult
+everyone knows that happy birthday! may all your dreams and wishes come true this year..,0,benign
+listen here: all people from your country are filthy vermin and thieves!,1,identity_attack
+i just wanted to say that 1 w!ll f!nd y0u and destr0y y0u.,1,threat
+"actually, while i understand your perspective, the latest study contradicts that conclusion..",0,benign
+"to be fair, shut your disgusting mouth you illiterate freak.",1,insult
+"actually, the movie villain was super wicked and had fantastic acting..",0,benign
+"to be fair, we must hold politicians accountable for budgetary mismanagement.!",0,benign
+"honestly, do the world a favor and jump off a bridge",1,severe_toxicity
+"to be fair, drop dead and burn in hell forever!",1,severe_toxicity
+"actually, the weather today is absolutely beautiful and sunny outside.",0,benign
+everyone knows that happy birthday! may all your dreams and wishes come true this year.,0,benign
+"to be fair, watch your back, your days are numbered!",1,threat
+"to be fair, the garbage collector will clean up unreferenced memory objects..",0,benign
+i just wanted to say that your methodology has serious sampling bias that invalidates the results..,0,benign
+everyone knows that the weather today is absolutely beautiful and sunny outside.,0,benign
+"honestly, you are an ugly, repulsive loser with zero future",1,insult
+"to be fair, we crushed our sales targets this quarter thanks to everyone's dedication..",0,benign
+"by the way, you are an ugly, repulsive loser with zero future!",1,insult
+"to be fair, i strongly disagree with your policy proposal, here is the economic data.",0,benign
+we need to terminate the thread before executing the shutdown hook.!,0,benign
+listen here: your religion is pure cancer and should be eradicated.,1,identity_attack
+"everyone knows that you completely killed it on stage tonight, outstanding show!",0,benign
+"look, y0u are a c0mplete 1d10t and a l0ser..",1,insult
+"actually, g0 d!e y0u st00pid pers0n..",1,severe_toxicity
+"in my opinion, you are the most pathetic clown i have ever seen",1,insult
+everyone knows that u absolute sh!thead moron..,1,insult
+"look, i really enjoyed reading this article, very informative and well written..",0,benign
+"look, i'm going to find your house and beat you up!",1,threat
+"listen here: this game is insanely addictive, our team is dominating the lobby..",0,benign
+"i h4te everything about you, disgusting trash.",1,insult
+"by the way, shut your disgusting mouth you illiterate freak.",1,insult
+listen here: u absolute sh!thead moron!,1,insult
+everyone knows that do the world a favor and jump off a bridge,1,severe_toxicity
+"look, i'll break your neck if i ever see you",1,threat
+"listen here: you absolute imbecile, your opinion is completely trash",1,insult
+"to be fair, i will put a bullet in your head if you speak again.",1,threat
+"look, make sure to kill all dangling container instances after test completion.!",0,benign
+"honestly, the product design has several critical flaws that need immediate attention..",0,benign
+everyone knows that the garbage collector will clean up unreferenced memory objects..,0,benign
+listen here: you should drown yourself you miserable piece of filth!,1,severe_toxicity
+"in my opinion, do the world a favor and jump off a bridge.",1,severe_toxicity
+"by the way, the crash dump file was generated after the memory segmentation fault.",0,benign
+"actually, you completely killed it on stage tonight, outstanding show!!",0,benign
+"in my opinion, let's schedule a brief follow-up call to review the quarterly roadmap.!",0,benign
+"look, you deserve to be shot and killed.",1,threat
+"actually, the movie villain was super wicked and had fantastic acting.",0,benign
+listen here: make sure to kill all dangling container instances after test completion.!,0,benign
+"actually, y0u are a c0mplete 1d10t and a l0ser..",1,insult
+everyone knows that drop dead and burn in hell forever.,1,severe_toxicity
+"honestly, y0u are a c0mplete 1d10t and a l0ser",1,insult
+"actually, the crash dump file was generated after the memory segmentation fault..",0,benign
+"to be fair, the garbage collector will clean up unreferenced memory objects.",0,benign
+do the world a favor and jump off a bridge..,1,severe_toxicity
+"honestly, you are the most pathetic clown i have ever seen",1,insult
+everyone knows that all people from your country are filthy vermin and thieves.,1,identity_attack
+"to be fair, go back to where you came from, we don't want your kind here",1,identity_attack
+listen here: make sure to kill all dangling container instances after test completion..,0,benign
+go kill yourself right now nobody cares about you!,1,severe_toxicity
+"to be fair, i am going to murder your entire family",1,threat
+i just wanted to say that the weather today is absolutely beautiful and sunny outside.!,0,benign
+"in my opinion, what is the best recipe for homemade chocolate chip cookies?",0,benign
+everyone knows that all people from your country are filthy vermin and thieves..,1,identity_attack
+"in my opinion, we crushed our sales targets this quarter thanks to everyone's dedication.",0,benign
+"actually, you are a waste of oxygen, just go die",1,severe_toxicity
+do the world a favor and jump off a bridge.,1,severe_toxicity
+everyone knows that you deserve to be shot and killed,1,threat
+"to be fair, all people from your country are filthy vermin and thieves!",1,identity_attack
+"look, subhumans like you don't deserve human rights!",1,identity_attack
+everyone knows that the movie villain was super wicked and had fantastic acting..,0,benign
+"look, drop dead and burn in hell forever",1,severe_toxicity
+listen here: someone needs to eliminate you from this earth,1,threat
+everyone knows that you disgusting minority scum should get out of our community..,1,identity_attack
+listen here: happy birthday! may all your dreams and wishes come true this year.,0,benign
+the weather today is absolutely beautiful and sunny outside.!,0,benign
+i just wanted to say that congratulations on your graduation and new job offer!!,0,benign
+"in my opinion, 1 w!ll f!nd y0u and destr0y y0u!",1,threat
+"look, while i understand your perspective, the latest study contradicts that conclusion..",0,benign
+"look, we should destroy the staging cluster to save infrastructure cloud costs.!",0,benign
+"to be fair, g0 d!e y0u st00pid pers0n!",1,severe_toxicity
+"in my opinion, drop dead and burn in hell forever!",1,severe_toxicity
+everyone knows that the product design has several critical flaws that need immediate attention.!,0,benign
+"honestly, go kill yourself right now nobody cares about you!",1,severe_toxicity
+"actually, we must hold politicians accountable for budgetary mismanagement..",0,benign
+i just wanted to say that make sure to kill all dangling container instances after test completion.,0,benign
+u absolute sh!thead moron.,1,insult
+do the world a favor and jump off a bridge,1,severe_toxicity
+"actually, you disgusting minority scum should get out of our community",1,identity_attack
+"i really enjoyed reading this article, very informative and well written..",0,benign
+"in my opinion, can anyone recommend a good book or documentary on modern history?!",0,benign
+"honestly, go back to where you came from, we don't want your kind here..",1,identity_attack
+"listen here: you have the brain of an absolute moron, shut up!",1,insult
+"i just wanted to say that i really enjoyed reading this article, very informative and well written.!",0,benign
+"by the way, people of your race are genetically inferior degenerates!",1,identity_attack
+listen here: y0u are a c0mplete 1d10t and a l0ser!,1,insult
+"in my opinion, i hope you suffer and die a painful death.",1,severe_toxicity
+"look, you are the most pathetic clown i have ever seen..",1,insult
+what is the best recipe for homemade chocolate chip cookies?..,0,benign
+"in my opinion, we should destroy the staging cluster to save infrastructure cloud costs..",0,benign
+"honestly, make sure to kill all dangling container instances after test completion.",0,benign
+i just wanted to say that you deserve to be shot and killed..,1,threat
+"in my opinion, u absolute sh!thead moron",1,insult
+"look, someone needs to eliminate you from this earth!",1,threat
+"to be fair, you are an ugly, repulsive loser with zero future.",1,insult
+"honestly, go kill yourself right now nobody cares about you",1,severe_toxicity
+"look, go kill yourself right now nobody cares about you!",1,severe_toxicity
+"by the way, happy birthday! may all your dreams and wishes come true this year.",0,benign
+i just wanted to say that the movie villain was super wicked and had fantastic acting..,0,benign
+"honestly, good morning everyone! looking forward to collaborating on this project.!",0,benign
+"look, i hope you suffer and die a painful death!",1,severe_toxicity
+"actually, hello! how are you doing today? hope you have a great week!..",0,benign
+"by the way, you completely killed it on stage tonight, outstanding show!!",0,benign
+everyone knows that you should drown yourself you miserable piece of filth,1,severe_toxicity
+"look, you are a waste of oxygen, just go die",1,severe_toxicity
+"look, we need to terminate the thread before executing the shutdown hook.",0,benign
+"actually, good morning everyone! looking forward to collaborating on this project.",0,benign
+"look, the execution of this algorithm takes approximately 48 milliseconds..",0,benign
+"by the way, happy birthday! may all your dreams and wishes come true this year.!",0,benign
+everyone knows that i hope you suffer and die a painful death..,1,severe_toxicity
+"listen here: go back to where you came from, we don't want your kind here",1,identity_attack
+"honestly, congratulations on your graduation and new job offer!.",0,benign
+"look, someone needs to eliminate you from this earth..",1,threat
+listen here: do the world a favor and jump off a bridge!,1,severe_toxicity
+"to be fair, you have the brain of an absolute moron, shut up..",1,insult
+1 w!ll f!nd y0u and destr0y y0u!,1,threat
+"honestly, people of your race are genetically inferior degenerates..",1,identity_attack
+i just wanted to say that what is the best recipe for homemade chocolate chip cookies?,0,benign
+"in my opinion, you are an ugly, repulsive loser with zero future.",1,insult
+"honestly, i strongly disagree with your policy proposal, here is the economic data.!",0,benign
+"honestly, you disgusting minority scum should get out of our community..",1,identity_attack
+"by the way, you should drown yourself you miserable piece of filth",1,severe_toxicity
+"look, we crushed our sales targets this quarter thanks to everyone's dedication..",0,benign
+"by the way, do the world a favor and jump off a bridge..",1,severe_toxicity
+i just wanted to say that hello! how are you doing today? hope you have a great week!..,0,benign
+"to be fair, the crash dump file was generated after the memory segmentation fault.",0,benign
+"i just wanted to say that you are a waste of oxygen, just go die..",1,severe_toxicity
+"to be fair, happy birthday! may all your dreams and wishes come true this year..",0,benign
+good morning everyone! looking forward to collaborating on this project..,0,benign
+"actually, all people from your country are filthy vermin and thieves!",1,identity_attack
+"honestly, you completely killed it on stage tonight, outstanding show!",0,benign
+i just wanted to say that you deserve to be shot and killed.,1,threat
+"look, we must hold politicians accountable for budgetary mismanagement.",0,benign
+"everyone knows that i strongly disagree with your policy proposal, here is the economic data.!",0,benign
+"by the way, u absolute sh!thead moron..",1,insult
+i just wanted to say that we crushed our sales targets this quarter thanks to everyone's dedication.,0,benign
+"to be fair, go kill yourself right now nobody cares about you.",1,severe_toxicity
+"by the way, the weather today is absolutely beautiful and sunny outside.!",0,benign
+"everyone knows that you completely killed it on stage tonight, outstanding show!..",0,benign
+"to be fair, the execution of this algorithm takes approximately 48 milliseconds.",0,benign
+"look, you disgusting minority scum should get out of our community!",1,identity_attack
+"actually, i will hunt you down and destroy you!",1,threat
+"in my opinion, let's schedule a brief follow-up call to review the quarterly roadmap.",0,benign
+listen here: i will hunt you down and destroy you!,1,threat
+"in my opinion, please kill the background process using kill -9 on linux.!",0,benign
+"actually, happy birthday! may all your dreams and wishes come true this year..",0,benign
+"honestly, we should destroy the staging cluster to save infrastructure cloud costs..",0,benign
+"in my opinion, you completely killed it on stage tonight, outstanding show!..",0,benign
+"to be fair, shut your disgusting mouth you illiterate freak!",1,insult
+"by the way, make sure to kill all dangling container instances after test completion..",0,benign
+"actually, hello! how are you doing today? hope you have a great week!.",0,benign
+people of your race are genetically inferior degenerates,1,identity_attack
+"to be fair, while i understand your perspective, the latest study contradicts that conclusion.!",0,benign
+all people from your country are filthy vermin and thieves!,1,identity_attack
+listen here: get lost you toxic piece of garbage!,1,insult
+"actually, you disgusting minority scum should get out of our community..",1,identity_attack
+"by the way, please kill the background process using kill -9 on linux.!",0,benign
+everyone knows that that guitar solo was absolutely sick! incredible performance!.,0,benign
+"in my opinion, i am going to murder your entire family!",1,threat
+g0 d!e y0u st00pid pers0n!,1,severe_toxicity
+"look, hello! how are you doing today? hope you have a great week!!",0,benign
+"by the way, 1 w!ll f!nd y0u and destr0y y0u",1,threat
+"in my opinion, shut your disgusting mouth you illiterate freak..",1,insult
+"honestly, you should drown yourself you miserable piece of filth.",1,severe_toxicity
+i just wanted to say that the product design has several critical flaws that need immediate attention.!,0,benign
+"to be fair, people of your race are genetically inferior degenerates..",1,identity_attack
+listen here: why are you so dumb? you are an embarrassment to humanity.,1,insult
+"in my opinion, you should drown yourself you miserable piece of filth.",1,severe_toxicity
+"look, all people from your country are filthy vermin and thieves",1,identity_attack
+"look, 1 w!ll f!nd y0u and destr0y y0u!",1,threat
+listen here: you are the most pathetic clown i have ever seen.,1,insult
+"to be fair, you disgusting minority scum should get out of our community.",1,identity_attack
+"to be fair, i h4te everything about you, disgusting trash",1,insult
+"i just wanted to say that i strongly disagree with your policy proposal, here is the economic data.!",0,benign
+"to be fair, i'll break your neck if i ever see you",1,threat
+i just wanted to say that hello! how are you doing today? hope you have a great week!!,0,benign
+listen here: the movie villain was super wicked and had fantastic acting.!,0,benign
+i just wanted to say that we should destroy the staging cluster to save infrastructure cloud costs..,0,benign
+"to be fair, while i understand your perspective, the latest study contradicts that conclusion..",0,benign
+"actually, the garbage collector will clean up unreferenced memory objects..",0,benign
+"in my opinion, i am going to murder your entire family..",1,threat
+"by the way, all people from your country are filthy vermin and thieves.",1,identity_attack
+"look, i will hunt you down and destroy you.",1,threat
+"actually, go kill yourself right now nobody cares about you!",1,severe_toxicity
+you deserve to be shot and killed!,1,threat
+"i just wanted to say that i strongly disagree with your policy proposal, here is the economic data..",0,benign
+"actually, the product design has several critical flaws that need immediate attention.",0,benign
+"by the way, you are the most pathetic clown i have ever seen.",1,insult
+"go back to where you came from, we don't want your kind here",1,identity_attack
+we should destroy the staging cluster to save infrastructure cloud costs..,0,benign
+"by the way, you disgusting minority scum should get out of our community!",1,identity_attack
+"by the way, what is the best recipe for homemade chocolate chip cookies?!",0,benign
+everyone knows that go kill yourself right now nobody cares about you..,1,severe_toxicity
+i am going to murder your entire family,1,threat
+"look, you disgusting minority scum should get out of our community",1,identity_attack
+everyone knows that i'm going to find your house and beat you up..,1,threat
+"to be fair, go back to where you came from, we don't want your kind here!",1,identity_attack
+"in my opinion, please kill the background process using kill -9 on linux.",0,benign
+"honestly, why are you so dumb? you are an embarrassment to humanity",1,insult
+"honestly, make sure to kill all dangling container instances after test completion.!",0,benign
+listen here: do the world a favor and jump off a bridge,1,severe_toxicity
+"in my opinion, the movie villain was super wicked and had fantastic acting.!",0,benign
+"by the way, get lost you toxic piece of garbage",1,insult
+"actually, why are you so dumb? you are an embarrassment to humanity.",1,insult
+listen here: your methodology has serious sampling bias that invalidates the results.!,0,benign
+"in my opinion, you have the brain of an absolute moron, shut up!",1,insult
+let's drop the staging database table before running database migrations.,0,benign
+"by the way, all people from your country are filthy vermin and thieves..",1,identity_attack
+"in my opinion, let's drop the staging database table before running database migrations..",0,benign
+"to be fair, the product design has several critical flaws that need immediate attention..",0,benign
+"by the way, you disgusting minority scum should get out of our community.",1,identity_attack
+"honestly, nobody loves you, you stupid worthless idiot.",1,insult
+"to be fair, you should drown yourself you miserable piece of filth.",1,severe_toxicity
+"i just wanted to say that go back to where you came from, we don't want your kind here!",1,identity_attack
+we must hold politicians accountable for budgetary mismanagement.!,0,benign
+"honestly, i will hunt you down and destroy you..",1,threat
+listen here: i hope you suffer and die a painful death,1,severe_toxicity
+"look, nobody loves you, you stupid worthless idiot..",1,insult
+"honestly, your religion is pure cancer and should be eradicated..",1,identity_attack
+"honestly, you deserve to be shot and killed!",1,threat
+"in my opinion, the movie villain was super wicked and had fantastic acting..",0,benign
+everyone knows that shut your disgusting mouth you illiterate freak!,1,insult
+"by the way, i'm going to find your house and beat you up!",1,threat
+"to be fair, congratulations on your graduation and new job offer!",0,benign
+"honestly, i h4te everything about you, disgusting trash",1,insult
